@@ -1,3 +1,62 @@
-* {
-  background-color: brown;
+body {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+}
+
+header {
+  display: flex;
+  padding: 3%;
+  background-color: maroon;
+  color: chocolate;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  min-width: 300px;
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: chocolate;
+}
+
+.rookb:before {
+  content: "\2656";
+  padding: 1%;
+}
+.rooka::after {
+  content: "\2656";
+  padding: 1%;
+}
+.bishopb::before {
+  content: "\2657";
+  padding: 1%;
+}
+.bishopa::after {
+  content: "\2657";
+  padding: 1%;
+}
+.knightb::before {
+  content: "\265E";
+  padding: 1%;
+}
+.knighta::before {
+  content: "\265E";
+  padding: 1%;
+}
+.bbishopb::before {
+  content: "\265D";
+  padding: 1%;
+}
+.bbishopa::after {
+  content: "\265D";
+  padding: 1%;
 }
