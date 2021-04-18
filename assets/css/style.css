@@ -90,26 +90,17 @@ section div {
   margin: 20px;
   padding: 20px;
   flex-direction: column;
-  justify-content: space-around;
+  /* justify-content: space-around; */
 }
 
 img {
   scale: auto;
 }
 
-.contactme {
-  color: white;
-}
-
-div {
+.container {
   position: relative;
-  margin: 3%;
+  text-align: center;
 }
-/* div a span {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-} */
 
 .project1 {
   position: absolute;
@@ -147,6 +138,9 @@ footer {
   flex-direction: column;
   text-align: center;
   height: 7%;
+}
+.contactme {
+  color: white;
 }
 
 .cfooter {
