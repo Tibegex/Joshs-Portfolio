@@ -10,7 +10,7 @@ header {
   display: flex;
   padding: 1%;
   background-color: rgb(110, 5, 5);
-  color: chocolate;
+  color: white;
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -31,7 +31,7 @@ nav ul {
 nav a {
   font-weight: bold;
   text-decoration: none;
-  color: chocolate;
+  color: white;
 }
 li {
   width: 150px;
@@ -118,12 +118,14 @@ footer ul {
 }
 footer ul li {
   font-weight: bold;
-  color: chocolate;
+  color: white;
 }
 
 footer ul li a {
   font-weight: bold;
   text-decoration: none;
-  color: chocolate;
+  color: white;
   justify-content: space-around;
+}
+footer h1 {
 }
