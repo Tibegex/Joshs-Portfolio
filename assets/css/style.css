@@ -114,8 +114,10 @@ img {
 
 .project1 {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  /* bottom: 10px;
+  left: 10px; */
+  justify-content: column;
+  align-items: center;
 }
 .project2 {
   position: absolute;
