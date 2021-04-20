@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -22,6 +26,7 @@ header {
 
 h1 {
   font-size: 200%;
+  flex: 0 0 100%;
 }
 
 nav ul {
@@ -108,6 +113,10 @@ main {
   padding: 10px;
   flex-wrap: wrap;
 }
+div figure:first-child {
+  flex: 1 0 100%;
+}
+
 section a {
   display: block;
   flex: 1 0 33.3%;
@@ -127,21 +136,6 @@ figure {
   align-items: center;
 }
 
-/* .project2 {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-.project3 {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-}
-.project4 {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-} */
 .resume {
   display: flex;
   flex-direction: column;
