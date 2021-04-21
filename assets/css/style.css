@@ -262,3 +262,26 @@ footer ul {
     min-height: 10%;
   }
 }
+
+/* 
+RESPONSIVENES AT 768 PX */
+@media screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+    scroll-margin-top: 7rem;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  header {
+    width: 425px;
+  }
+  img {
+    scale: 425px 425px;
+  }
+  Div figure:first-child {
+    /* width: 100px;
+    height: 100px; */
+  }
+}
